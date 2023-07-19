@@ -13,7 +13,12 @@
 
 </head>
 <body>
-
+  
+  {% if name in friends_list %}
+    <h1>true</h1>
+  {% else %}
+    <h1>false</h1>
+    {% endif %}
 
 
 </body>
